@@ -1,5 +1,5 @@
-selector {font-family: Garamond, serif;}
-Grouped selectors, h1, h2 {color: lightsalmon}
+body {font-family: Garamond, serif;}
+h1, h2 {color: lightsalmon}
 .evenrow {background-color: lightblue}
 .h1 {font-size: 2 em;}
 .h2 {font-size: 1 em;}
