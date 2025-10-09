@@ -1,6 +1,7 @@
 body {font-family: Garamond, serif;}
-h1, h2 {color: lightsalmon}
-.evenrow {background-color: lightblue}
+body{background-color: #005f73;}
+h1, h2 {color: #ee9b00}
+.evenrow {background-color: #94d2bd}
 .h1 {font-size: 2 em;}
 .h2 {font-size: 1 em;}
 nav {background-color: #e9d8a6;}
