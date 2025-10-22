@@ -11,10 +11,12 @@
             .name2 {flex: 1; margin-top: 20px;}
 
 
-            .questionmap {display: flex; flex: 2; background-color: #e9d8a6; border-radius: 1em; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;}
+            .questionmap {display: flex; flex: 2; background-color: #e9d8a6; border-radius: 2em; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;}
 
             .question {flex: .3; margin-top: 20px; margin-left: 30px;}
             .map {flex: 1; margin-top: 10px; margin-bottom: 10px;}
+
+            label {font-size: larger;}
 
 
         </style>
@@ -41,17 +43,17 @@
         </div>
         <div class = "questionmap">
             <div class = "question">
-                <p>Which state is better?</p>
+                <p style="font-size: larger;">Which state do you think is better?</p>
                 <form action="https://formspree.io/f/xldwyzey" method="POST">
-                    <input type="radio" id="MA" name="state1" value="Massachusetts">
+                    <input type="radio" id="MA" name="state" value="Massachusetts">
                     <label for="MA">Massachusetts is so much better!</label><br>
-                    <input type="radio" id="NY" name="state2" value="New York">
+                    <input type="radio" id="NY" name="state" value="New York">
                     <label for="MA">New York is so much better!</label><br>
-                    <input type="radio" id="NJ" name="state1" value="New Jersey">
+                    <input type="radio" id="NJ" name="state" value="New Jersey">
                     <label for="MA">New Jersey is so much better!</label><br><br>
-                    <label for="fav_state">This state is better because...:</label><br>
-                    <input type="text" id="fav_state" name="fav_state" value=""><br>
-                    <input type="submit" value="Submit">
+                    <label for="fav_state">This state is better because...:</label><br><br>
+                    <input type="text" id="fav_state" name="fav_state" value="" style = "width: 230px; height: 30px;"><br><br>
+                    <input type="submit" value="Submit" style="width: 230px; height: 30px; border-radius: 1em;">
                 </form>
             </div>
             <div class = "map">
