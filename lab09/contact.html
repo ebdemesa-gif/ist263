@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .contact {display: flex; flex: 2; background-color: #e9d8a6; border-radius: 2em; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;}
+
+            .name {flex: .2; margin-top: 20px; margin-left: 30px;}
+            .name2 {flex: 1; margin-top: 20px;}
+
+
+            .questionmap {display: flex; flex: 2; background-color: #e9d8a6; border-radius: 2em; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;}
+
+            .question {flex: .3; margin-top: 80px; margin-left: 50px;}
+            .map {flex: 1; margin-top: 10px; margin-bottom: 10px;}
+
+            label {font-size: larger;}
+
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href = "index.html">Home</a> |
+            <a href = "skills.html">Skills</a> |
+            <a href = "contact.html">Contact</a>
+        </nav>
+
+        <h1>Contact</h1>
+
+        <div class = "contact">
+            <div class = "name">
+                <h2>Address</h2>
+                <p>Edgar De Mesa <br><br>
+                    237 Robert Drive <br>
+                    Syracuse, NY, 13210
+                </p>
+            </div>
+            <div class = "name2">
+                <a href="http://linkedin.com/in/edgardemesa" target="_blank"> <img src="../images/Image.png" alt=""></a>
+                <h2><a href="mailto:ebdemesa@syr.edu"> ebdemesa@syr.edu</a></h2>
+            </div>
+        </div>
+        <div class = "questionmap">
+            <div class = "question">
+                <p style="font-size: larger;">Which state do you think is better?</p>
+                <form action="https://formspree.io/f/xldwyzey" method="POST">
+                    <input type="radio" id="MA" name="state" value="Massachusetts">
+                    <label for="MA">Massachusetts is so much better!</label><br>
+                    <input type="radio" id="NY" name="state" value="New York">
+                    <label for="MA">New York is so much better!</label><br>
+                    <input type="radio" id="NJ" name="state" value="New Jersey">
+                    <label for="MA">New Jersey is so much better!</label><br><br>
+                    <label for="fav_state">This state is better because...:</label><br><br>
+                    <input type="text" id="fav_state" name="fav_state" value="" style = "width: 230px; height: 30px;"><br><br>
+                    <input type="submit" value="Submit" style="width: 230px; height: 30px; border-radius: 1em;">
+                </form>
+            </div>
+            <div class = "map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.585623085041!2d-76.13063915454478!3d43.026329429531835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f378b1a6b073%3A0xb9660f3ea0d0819e!2s237%20Robert%20Dr%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1757531313148!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+        
+       
+    </body>
+
+</html>
