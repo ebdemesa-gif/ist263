@@ -101,8 +101,19 @@ body {
     .aboutus {
         background-size: cover;
     }
-    /* .newsletter{
-
-    } */
     html, body { overflow-x: hidden; }
+    .headshots {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .headshots > div {
+        grid-column: auto !important;
+        max-width: 100%;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .map iframe{
+        height: 320px;
+    }
 }
